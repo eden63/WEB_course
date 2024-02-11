@@ -144,3 +144,25 @@ p {
     left: 40px;
     top: 500px;
 }
+
+@media (max-width: 900px) {
+    ul, .p-box {
+        display: none;
+    }
+
+    body {
+        background-color: blue;
+        color: yellow;
+    }
+}
+
+@media (max-width: 600px) {
+    ul, .p-box {
+        display: none;
+    }
+
+    body {
+        background-color: #333;
+        color: white;
+    }
+}
